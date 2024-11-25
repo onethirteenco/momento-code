@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011D6EB82CF3F4DA006D2D11 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D6EB72CF3F4DA006D2D11 /* HapticService.swift */; };
+		011D6EBA2CF3F51B006D2D11 /* PhotoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D6EB92CF3F51B006D2D11 /* PhotoProcessor.swift */; };
+		011D6EBC2CF3F531006D2D11 /* CameraState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011D6EBB2CF3F531006D2D11 /* CameraState.swift */; };
+		013491BD2C741F73001A5388 /* MomentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491BC2C741F73001A5388 /* MomentoApp.swift */; };
+		013491BF2C741F73001A5388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491BE2C741F73001A5388 /* ContentView.swift */; };
+		013491C12C741F75001A5388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013491C02C741F75001A5388 /* Assets.xcassets */; };
+		013491C42C741F75001A5388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013491C32C741F75001A5388 /* Preview Assets.xcassets */; };
+		013491CB2C74200C001A5388 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491CA2C74200C001A5388 /* CameraView.swift */; };
+		013491CD2C742029001A5388 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491CC2C742029001A5388 /* CameraModel.swift */; };
+		013491D12C74244D001A5388 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491D02C74244D001A5388 /* CameraPreview.swift */; };
+		013491D32C743F26001A5388 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491D22C743F26001A5388 /* SettingsView.swift */; };
+		013491D52C74442A001A5388 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491D42C74442A001A5388 /* BlurView.swift */; };
+		013491D72C744581001A5388 /* ShutterAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491D62C744581001A5388 /* ShutterAnimationView.swift */; };
+		013491D92C7448C7001A5388 /* ShutterOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491D82C7448C7001A5388 /* ShutterOverlay.swift */; };
+		013491DB2C7457B9001A5388 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491DA2C7457B9001A5388 /* GalleryView.swift */; };
+		013491DD2C74586B001A5388 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013491DC2C74586B001A5388 /* AppInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011D6EB72CF3F4DA006D2D11 /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
+		011D6EB92CF3F51B006D2D11 /* PhotoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoProcessor.swift; sourceTree = "<group>"; };
+		011D6EBB2CF3F531006D2D11 /* CameraState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraState.swift; sourceTree = "<group>"; };
+		013491B92C741F73001A5388 /* Momento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013491BC2C741F73001A5388 /* MomentoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentoApp.swift; sourceTree = "<group>"; };
+		013491BE2C741F73001A5388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		013491C02C741F75001A5388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013491C32C741F75001A5388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		013491CA2C74200C001A5388 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		013491CC2C742029001A5388 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		013491CE2C74227F001A5388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		013491CF2C7423AF001A5388 /* Momento.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Momento.entitlements; sourceTree = "<group>"; };
+		013491D02C74244D001A5388 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		013491D22C743F26001A5388 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		013491D42C74442A001A5388 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		013491D62C744581001A5388 /* ShutterAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterAnimationView.swift; sourceTree = "<group>"; };
+		013491D82C7448C7001A5388 /* ShutterOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterOverlay.swift; sourceTree = "<group>"; };
+		013491DA2C7457B9001A5388 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		013491DC2C74586B001A5388 /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013491B62C741F73001A5388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013491B02C741F73001A5388 = {
+			isa = PBXGroup;
+			children = (
+				013491BB2C741F73001A5388 /* Momento */,
+				013491BA2C741F73001A5388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013491BA2C741F73001A5388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013491B92C741F73001A5388 /* Momento.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013491BB2C741F73001A5388 /* Momento */ = {
+			isa = PBXGroup;
+			children = (
+				013491CF2C7423AF001A5388 /* Momento.entitlements */,
+				013491CE2C74227F001A5388 /* Info.plist */,
+				013491BC2C741F73001A5388 /* MomentoApp.swift */,
+				013491BE2C741F73001A5388 /* ContentView.swift */,
+				013491CA2C74200C001A5388 /* CameraView.swift */,
+				013491DA2C7457B9001A5388 /* GalleryView.swift */,
+				013491D82C7448C7001A5388 /* ShutterOverlay.swift */,
+				013491D62C744581001A5388 /* ShutterAnimationView.swift */,
+				013491D42C74442A001A5388 /* BlurView.swift */,
+				013491D22C743F26001A5388 /* SettingsView.swift */,
+				013491D02C74244D001A5388 /* CameraPreview.swift */,
+				013491CC2C742029001A5388 /* CameraModel.swift */,
+				011D6EB72CF3F4DA006D2D11 /* HapticService.swift */,
+				011D6EB92CF3F51B006D2D11 /* PhotoProcessor.swift */,
+				011D6EBB2CF3F531006D2D11 /* CameraState.swift */,
+				013491DC2C74586B001A5388 /* AppInfoView.swift */,
+				013491C02C741F75001A5388 /* Assets.xcassets */,
+				013491C22C741F75001A5388 /* Preview Content */,
+			);
+			path = Momento;
+			sourceTree = "<group>";
+		};
+		013491C22C741F75001A5388 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				013491C32C741F75001A5388 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013491B82C741F73001A5388 /* Momento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013491C72C741F75001A5388 /* Build configuration list for PBXNativeTarget "Momento" */;
+			buildPhases = (
+				013491B52C741F73001A5388 /* Sources */,
+				013491B62C741F73001A5388 /* Frameworks */,
+				013491B72C741F73001A5388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Momento;
+			productName = Momento;
+			productReference = 013491B92C741F73001A5388 /* Momento.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013491B12C741F73001A5388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					013491B82C741F73001A5388 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 013491B42C741F73001A5388 /* Build configuration list for PBXProject "Momento" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013491B02C741F73001A5388;
+			productRefGroup = 013491BA2C741F73001A5388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013491B82C741F73001A5388 /* Momento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013491B72C741F73001A5388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013491C42C741F75001A5388 /* Preview Assets.xcassets in Resources */,
+				013491C12C741F75001A5388 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013491B52C741F73001A5388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013491D12C74244D001A5388 /* CameraPreview.swift in Sources */,
+				013491D52C74442A001A5388 /* BlurView.swift in Sources */,
+				011D6EBA2CF3F51B006D2D11 /* PhotoProcessor.swift in Sources */,
+				013491DD2C74586B001A5388 /* AppInfoView.swift in Sources */,
+				013491CB2C74200C001A5388 /* CameraView.swift in Sources */,
+				013491BF2C741F73001A5388 /* ContentView.swift in Sources */,
+				013491D32C743F26001A5388 /* SettingsView.swift in Sources */,
+				013491CD2C742029001A5388 /* CameraModel.swift in Sources */,
+				013491BD2C741F73001A5388 /* MomentoApp.swift in Sources */,
+				011D6EB82CF3F4DA006D2D11 /* HapticService.swift in Sources */,
+				011D6EBC2CF3F531006D2D11 /* CameraState.swift in Sources */,
+				013491D92C7448C7001A5388 /* ShutterOverlay.swift in Sources */,
+				013491D72C744581001A5388 /* ShutterAnimationView.swift in Sources */,
+				013491DB2C7457B9001A5388 /* GalleryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		013491C52C741F75001A5388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		013491C62C741F75001A5388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013491C82C741F75001A5388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Momento/Momento.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Momento/Preview Content\"";
+				DEVELOPMENT_TEAM = WT853NZCL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Momento/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Momento;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Momento would like permission to use your phone camera to take pictures.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Momento would like permission to save photos to your library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Momento would like permission to save photos to your library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowApps.Momento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		013491C92C741F75001A5388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Momento/Momento.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Momento/Preview Content\"";
+				DEVELOPMENT_TEAM = WT853NZCL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Momento/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Momento;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Momento would like permission to use your phone camera to take pictures.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Momento would like permission to save photos to your library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Momento would like permission to save photos to your library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowApps.Momento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013491B42C741F73001A5388 /* Build configuration list for PBXProject "Momento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013491C52C741F75001A5388 /* Debug */,
+				013491C62C741F75001A5388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013491C72C741F75001A5388 /* Build configuration list for PBXNativeTarget "Momento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013491C82C741F75001A5388 /* Debug */,
+				013491C92C741F75001A5388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013491B12C741F73001A5388 /* Project object */;
+}
